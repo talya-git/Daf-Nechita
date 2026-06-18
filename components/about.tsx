@@ -34,7 +34,7 @@ export function About() {
             מי אנחנו
           </span>
           <h2 className="mt-4 font-heading text-3xl font-bold leading-tight tracking-[-0.04em] text-balance text-gold-gradient sm:text-4xl md:text-5xl">
-            רכישת דירה היא לא רק עסקה. זהו מסע אישי בעל משמעות עמוקה.
+            רכישת דירה היא לא רק עסקה, זהו מסע אישי בעל משמעות עמוקה.
           </h2>
           <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
             בקבוצת אורן כהן אנו רואים ברכישת נכס מסע אישי, ומחויבים להעניק לכם חוויה חלקה ומקצועית בכל שלב, כך שתרגישו

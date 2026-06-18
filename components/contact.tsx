@@ -13,19 +13,19 @@ const CONTACTS = [
   {
     label: "וואטסאפ",
     sub: "מענה מהיר ודיסקרטי",
-    href: "https://wa.me/972500000000",
+    href: "https://wa.me/97226634070",
     icon: WhatsAppIcon,
   },
   {
     label: "התקשרו אלינו",
-    sub: "050-000-0000",
-    href: "tel:+972500000000",
+    sub: "02-663-4070",
+    href: "tel:+97226634070",
     icon: Phone,
   },
   {
     label: "אימייל",
-    sub: "info@orencohengroup.com",
-    href: "mailto:info@orencohengroup.com",
+    sub: "marketing@orencohengroup.com",
+    href: "mailto:marketing@orencohengroup.com",
     icon: Mail,
   },
 ]
