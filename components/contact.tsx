@@ -13,7 +13,7 @@ const CONTACTS = [
   {
     label: "וואטסאפ",
     sub: "מענה מהיר ודיסקרטי",
-    href: "https://wa.me/97226634070",
+    href: "https://wa.me/972545596052",
     icon: WhatsAppIcon,
   },
   {
