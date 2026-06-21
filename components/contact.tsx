@@ -35,7 +35,7 @@ export function Contact() {
     <section id="contact" className="relative py-14 md:py-20">
       <div className="mx-auto max-w-3xl px-5 md:px-8">
         <Reveal className="text-center">
-          <img src="/media/logo.png" alt="Oren Cohen Group" className="mx-auto h-20 w-20 rounded-full" />
+          <img src="/media/a-z.png" alt="A-Z by Oren Cohen Group" className="mx-auto h-20 w-auto" />
           <h2 className="mt-7 font-heading text-3xl font-medium leading-tight tracking-tight text-balance text-gold-gradient sm:text-4xl md:text-5xl">
             דברו עם מחלקת A-Z עוד היום
           </h2>
