@@ -1,11 +1,11 @@
 import { Reveal } from "@/components/reveal"
-import { Eye, ClipboardCheck, Video, Settings2 } from "lucide-react"
+import { Shield, Paintbrush, Users, FileCheck } from "lucide-react"
 
 const features = [
-  { icon: Eye, text: "ביקורים בשטח" },
-  { icon: ClipboardCheck, text: "פיקוח ובקרה" },
-  { icon: Video, text: "עדכונים שוטפים בווידאו ובדוחות" },
-  { icon: Settings2, text: "ניהול אנשי מקצוע וקבלת החלטות מרחוק" },
+  { icon: FileCheck, text: "ליווי משפטי ובירוקרטי מלא מול כל הגורמים" },
+  { icon: Paintbrush, text: "עיצוב, שיפוץ והתאמה אישית של הנכס" },
+  { icon: Users, text: "ניהול ספקים, קבלנים ויבואנים מהשורה הראשונה" },
+  { icon: Shield, text: "פיקוח ובקרת איכות בכל שלב עד למפתח" },
 ]
 
 export function Overseas() {
@@ -24,15 +24,15 @@ export function Overseas() {
         <Reveal>
           <span className="inline-flex items-center justify-center gap-3 text-base font-semibold uppercase tracking-[0.3em] text-gold sm:text-lg">
             <span className="h-px w-6 bg-gold" />
-            במיוחד עבור לקוחות מחו״ל
+            למה לעשות את זה לבד?
             <span className="h-px w-6 bg-gold" />
           </span>
           <h2 className="mt-4 font-heading text-3xl font-medium leading-tight tracking-tight text-balance text-gold-gradient sm:text-4xl md:text-5xl">
-            אנחנו העיניים, האוזניים והידיים שלכם בישראל
+            רכישת נכס יוקרה זה לא רק למצוא דירה
           </h2>
           <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
-            גרים בארה״ב, קנדה, אנגליה, צרפת או בכל מקום אחר בעולם? המשיכו בשגרת החיים שלכם בידיעה שיש מי ששומר על
-            האינטרסים שלכם בישראל.
+            עורכי דין, אדריכלים, מעצבי פנים, קבלנים, יבואנים, רשויות מקומיות — רכישת נכס יוקרה בירושלים דורשת
+            ניהול של עשרות גורמים במקביל. אנחנו מרכזים את הכול תחת קורת גג אחת, כדי שתוכלו ליהנות מהתוצאה בלי כאב הראש.
           </p>
         </Reveal>
 

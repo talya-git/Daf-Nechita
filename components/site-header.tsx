@@ -8,7 +8,7 @@ const links = [
   { href: "#problem", label: "האתגר" },
   { href: "#solution", label: "הפתרון" },
   { href: "#services", label: "השירות" },
-  { href: "#overseas", label: "לקוחות חו״ל" },
+  { href: "#overseas", label: "למה אנחנו" },
   { href: "#contact", label: "צרו קשר" },
 ]
 
