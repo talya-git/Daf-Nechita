@@ -1,13 +1,12 @@
 import { Reveal } from "@/components/reveal"
-import { Users, HelpCircle, Languages, ShieldAlert, MapPin, Briefcase } from "lucide-react"
+import { Users, HelpCircle, ShieldAlert, MapPin, Briefcase } from "lucide-react"
 
 const pains = [
-  { icon: ShieldAlert, text: "רגולציות מקומיות מורכבות שקשה לפענח לבד" },
-  { icon: Users, text: "מספר רב של אנשי מקצוע שונים שצריך לתאם ביניהם" },
-  { icon: Languages, text: "אתגרים ייחודיים שעומדים בפני רוכשים זרים" },
-  { icon: HelpCircle, text: "חוסר ודאות לגבי אמינות בעלי המקצוע" },
-  { icon: MapPin, text: "החלטות מורכבות שצריך לקבל מרחוק" },
-  { icon: Briefcase, text: "הצורך להיות ״מנהל הפרויקט״ בעצמכם" },
+  { icon: Users, text: "העסקה והפעלה של בעלי מקצוע שונים" },
+  { icon: Briefcase, text: "הצורך להיות \u05f4מנהל הפרויקט\u05f4 המקצועי בעצמכם" },
+  { icon: HelpCircle, text: "חוסר וודאות לגבי הנסיון וטיב העבודה" },
+  { icon: MapPin, text: "החלטות מורכבות שצריך לקבל בזמן אמת" },
+  { icon: ShieldAlert, text: "חוסר ידע בהשוואת מחירים ואיכות מוצרים וכח קנייה מוגבל" },
 ]
 
 export function Problem() {
@@ -22,11 +21,9 @@ export function Problem() {
             <span className="h-px w-6 bg-gold" />
           </span>
           <h2 className="mt-4 font-heading text-3xl font-medium leading-tight tracking-[-0.04em] text-balance text-gold-gradient sm:text-4xl md:text-5xl">
-            רכישת נכס יוקרתי בירושלים שונה מרכישה בכל מקום אחר.
+            רכישה או שיפוץ נכס יוקרתי הוא אתגר מורכב.
           </h2>
           <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
-            השילוב של רגולציות מקומיות מורכבות והאתגרים שעומדים בפני רוכשים זרים יוצר מרכיב ייחודי שדורש מומחיות מעמיקה
-            והכוונה מהימנה. לכן חשוב שיהיה לכם האדם הנכון במקום הנכון.
           </p>
         </Reveal>
 
@@ -45,7 +42,7 @@ export function Problem() {
 
         <Reveal className="mt-14 text-center" delay={120}>
           <p className="font-heading text-xl text-balance text-gold-soft sm:text-2xl">
-            מישהו שאפשר לסמוך עליו, גם מהימן וגם בעל ניסיון רב בעיר הזו.
+            אתם צריכים גוף שאפשר לסמוך עליו- מקצועי, אמין, בעל מוניטין ונסיון מוכח של שלושה עשורים ומאות משפחות מרוצות, כוח קנייה, מוצרים ומחירים מיוחדים שלא תוכלו לקבל במקום אחר.
           </p>
         </Reveal>
       </div>
