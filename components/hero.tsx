@@ -31,17 +31,17 @@ export function Hero() {
           className="font-heading text-5xl font-bold leading-[1.1] tracking-[-0.04em] text-balance text-gold-shimmer drop-shadow-[0_2px_24px_rgba(0,0,0,0.55)] sm:text-7xl md:text-[5.25rem]"
           style={{ animation: "fade-up 0.9s ease 0.1s both" }}
         >
-          חולמים לרכוש נכס
+          מתכננים לרכוש או לשפץ
           <br />
-          יוקרה בירושלים?
+          את הבית שלכם?
         </h1>
 
         <p
           className="mt-7 max-w-2xl text-pretty text-base leading-relaxed text-foreground/90 sm:text-lg"
           style={{ animation: "fade-up 0.9s ease 0.25s both" }}
         >
-          <span className="font-semibold">A-Z</span> מבית קבוצת אורן כהן הוא שירות מקיף ובלעדי שמלווה אתכם בכל שלב במסע
-          לרכישת נכס יוקרה בירושלים. משפטי, עיצובי, פיננסי, ספקים ויבואנים, אנחנו אתכם בכל היבט.
+          <span className="font-semibold">A-Z</span> מבית אורן כהן גרופ מעמידה לרשותכם חבילת ליווי אישי ומקצועי של מיטב בעלי המקצוע וספקים מומלצים שנבחרו בקפידה וילוו אתכם בכל שלב במסע לרכישה או שיפוץ הבית שלכם.
+          משלב החזון, התכנון הפרטני ועד לביצוע מושלם לאורך כל הדרך ועד הפרט האחרון.
         </p>
         <p
           className="mt-4 font-heading text-lg text-gold-soft sm:text-xl"
