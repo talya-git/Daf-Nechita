@@ -1,5 +1,5 @@
 import { Reveal } from "@/components/reveal"
-import { Phone, Mail } from "lucide-react"
+import { Phone, Mail, Globe } from "lucide-react"
 
 function WhatsAppIcon({ className }: { className?: string }) {
   return (
@@ -28,6 +28,12 @@ const CONTACTS = [
     href: "mailto:marketing@orencohengroup.com",
     icon: Mail,
   },
+  {
+    label: "האתר שלנו",
+    sub: "מחלקת A-Z",
+    href: "https://www.orencohengroup.com/he/a-z/",
+    icon: Globe,
+  },
 ]
 
 export function Contact() {
@@ -46,7 +52,7 @@ export function Contact() {
         </Reveal>
 
         <Reveal delay={120}>
-          <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-3">
+          <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4">
             {CONTACTS.map((c) => (
               <a
                 key={c.label}
