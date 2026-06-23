@@ -1,5 +1,9 @@
 import { Reveal } from "@/components/reveal"
-import { Users, HelpCircle, ShieldAlert, MapPin, Briefcase, Banknote } from "lucide-react"
+import { Users, HelpCircle, ShieldAlert, MapPin, Briefcase } from "lucide-react"
+
+function ShekelIcon({ className }: { className?: string }) {
+  return <span className={`${className} font-bold text-lg leading-none`}>₪</span>
+}
 
 const pains = [
   { icon: Users, text: "התקשרות העסקה והפעלה של בעלי מקצוע שונים" },
@@ -7,7 +11,7 @@ const pains = [
   { icon: HelpCircle, text: "חוסר וודאות לגבי הנסיון וטיב העבודה של בעלי המקצוע שבחרתם" },
   { icon: MapPin, text: "החלטות מורכבות שצריך לקבל בזמן אמת" },
   { icon: ShieldAlert, text: "ידע מוגבל וחוסר נסיון בהשוואת מחירים וטיב המוצרים" },
-  { icon: Banknote, text: "מחירי קנייה ויכולת מיקוח מוגבלת כקונה יחיד לעומת כוח קנייה של גוף מקצועי ומנוסה שרוכש בהיקפים גדולים" },
+  { icon: ShekelIcon, text: "מחירי קנייה ויכולת מיקוח מוגבלת כקונה יחיד לעומת כוח קנייה של גוף מקצועי ומנוסה שרוכש בהיקפים גדולים" },
 ]
 
 export function Problem() {
